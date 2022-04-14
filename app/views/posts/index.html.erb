@@ -1,14 +1,21 @@
-<p style="color: green"><%= notice %></p>
+<main class="posts-page container">
+  <section class="posts">
+    <% if @posts.any? %>
+      <%# <%= render @posts % > %>
+    <%# <% else % > %>
+      Nenhum post ainda.
+    <% end %>    
+  </section>
 
-<h1>Posts</h1>
+  <aside>
+    sidebar
 
-<div id="posts">
-  <% @posts.each do |post| %>
-    <%= render post %>
-    <p>
-      <%= link_to "Show this post", post %>
-    </p>
-  <% end %>
-</div>
+    <section class="suggestions">
+      <h4>Sugestões para você</h4>
+    </section>
+  </aside>
 
-<%= link_to "New post", new_post_path %>
+  <footer>
+    ₢ <%= Date.current.year %> INSTAGEM CLONE
+  </footer>
+</main>
