@@ -15,6 +15,11 @@ gem "rails-i18n"
 gem "pry"
 ```
 
+* Add toastify
+```
+yarn add toastify-js
+```
+
 * Create with scaffold controller/view/model/migration (model called "post" with property "description")
 ```
 rails g scaffold post description:string
