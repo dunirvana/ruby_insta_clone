@@ -3,9 +3,7 @@ class PostsController < ApplicationController
 
   # GET /posts or /posts.json
   def index
-    flash.now[:notice] = "Notice!"
-    flash.now[:alert] = "Alert!"
-    flash.now[:error] = "Error"
+    # flash.now[:notice] = "Notice!"
 
     @posts = Post.all
   end
@@ -21,7 +19,7 @@ class PostsController < ApplicationController
 
   # POST /posts or /posts.json
   def create
-    @post = Post.new(post_params)
+    @post = Post.new(post_params.merge(created_by: current_user))
 
     respond_to do |format|
       if @post.save
