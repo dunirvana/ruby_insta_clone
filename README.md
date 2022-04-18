@@ -13,11 +13,20 @@ rails new insta_clone -j esbuild -d postgresql
 ```
 gem "rails-i18n"
 gem "pry"
+gem "devise"
+gem "devise-i18n"
 ```
 
 * Add toastify
 ```
 yarn add toastify-js
+```
+
+* Install devise
+```
+rails g devise:install
+rails g devise:views
+rails g devise User
 ```
 
 * Create with scaffold controller/view/model/migration (model called "post" with property "description")

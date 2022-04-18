@@ -13,3 +13,4 @@ Rails.application.config.assets.version = "1.0"
 
 # Custom
 Rails.application.config.assets.paths << Rails.root.join('node_modules')
+Rails.application.config.assets.precompile += %w( authentication.js  )

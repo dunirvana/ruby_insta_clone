@@ -74,3 +74,5 @@ end
 # Custom
 gem "rails-i18n"
 gem "pry"
+gem "devise"
+gem "devise-i18n"
