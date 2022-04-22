@@ -13,16 +13,15 @@
     <%= javascript_include_tag "authentication", "data-turbo-track": "reload", defer: true %>
   </head>
 
-  <body data-flash-messages=<%= JSON.dump(flash.to_a) %>>
+  <body data-flash-messages="<%= JSON.dump(flash.to_a) %>">
     <main>
       <section class="hero">
         <div class="logo">
-          <%= image_tag "instagram.png"%>
+          <%= image_tag "instagram.png" %>
         </div>
 
         <%= yield %>
       </section>
     </main>
-    
   </body>
 </html>

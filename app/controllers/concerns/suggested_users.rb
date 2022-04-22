@@ -1,7 +1,7 @@
 module SuggestedUsers
   extend ActiveSupport::Concern
 
-  private 
+  private
 
   def set_suggested_users
     @suggested_users = User.all - [current_user]

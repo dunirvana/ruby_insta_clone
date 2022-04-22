@@ -151,6 +151,11 @@ esbuild@^0.14.36:
     esbuild-windows-64 "0.14.36"
     esbuild-windows-arm64 "0.14.36"
 
+tingle.js@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/tingle.js/-/tingle.js-0.16.0.tgz#1ac35f91315271c47cb6bb7299d0b327ac7539ea"
+  integrity sha512-xV4F2j7+QMxDfzuX59KhxiWKeAgI/QSC8o7k9rQu8hZD8TZefMTViq7l07DIcVDb30IlAPlyFRs6SnD1Fup6hA==
+
 toastify-js@^1.11.2:
   version "1.11.2"
   resolved "https://registry.yarnpkg.com/toastify-js/-/toastify-js-1.11.2.tgz#5c66cb05cee30b09e5bd8961ab809e41a3ce716c"

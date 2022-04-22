@@ -20,6 +20,7 @@ gem "devise-i18n"
 * Add toastify
 ```
 yarn add toastify-js
+yarn add tingle.js
 ```
 
 * Install devise

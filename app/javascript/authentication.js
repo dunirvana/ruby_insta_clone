@@ -2,4 +2,5 @@
 import "@hotwired/turbo-rails"
 import "./controllers"
 
-import "./flashMessages"
+import "./custom/flashMessages"
+import "./custom/modal"

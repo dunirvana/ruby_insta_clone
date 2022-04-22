@@ -1,4 +1,5 @@
 @import "toastify-js/src/toastify.css";
+@import 'tingle.js/src/tingle.css';
 
 @import "./reset.css";
 @import "./variables.css";
