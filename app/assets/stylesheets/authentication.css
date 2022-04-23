@@ -1,8 +1,8 @@
-@import "toastify-js/src/toastify.css";
+/* @import "toastify-js/src/toastify.css";
 
 @import "./reset.css";
 @import "./variables.css";
-@import "./form.css";
+@import "./form.css"; */
 
 body {
   background-color: var(--color-white-bis);

@@ -1,7 +1,5 @@
 import Toastify from "toastify-js";
 
-/* 2 */
-
 document.addEventListener('DOMContentLoaded', () => {
   const backgroundColors = {
     notice: "#009688",
@@ -9,8 +7,12 @@ document.addEventListener('DOMContentLoaded', () => {
     error: "#f44336"
   };
 
+  console.log('DOMContentLoaded - flashMessage');
+
   JSON.parse(document.body.dataset.flashMessages).forEach(flashMessage => {
     const [type, message] = flashMessage;
+
+    console.log('flashMessage', flashMessage);
 
     Toastify({
       text: message,
@@ -20,4 +22,5 @@ document.addEventListener('DOMContentLoaded', () => {
       stopOnFocus: true
     }).showToast();
   });
+
 });

@@ -6,6 +6,7 @@
 @import "./form.css";
 @import "./modal.css";
 @import "./comments.css";
+@import "./authentication.css";
 
 body {
   background-color: var(--color-white-bis);
@@ -237,4 +238,10 @@ aside, footer {
     color: var(--color-gray-light);
     font-size: 14px;
   }
+}
+
+.button-as-link {
+  background-color: white;
+  border: none;
+  cursor: pointer;
 }

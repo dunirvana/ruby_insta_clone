@@ -6,7 +6,7 @@ Ruby project to support an Instagram clone, to study the language.
 
 * Create project
 ```
-rails new insta_clone -j esbuild -d postgresql
+rails new insta_clone -j esbuild -d postgresql --skip-turbolinks
 ```
 
 * Add gems
