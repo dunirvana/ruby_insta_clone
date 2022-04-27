@@ -8,9 +8,6 @@ Rails.application.routes.draw do
   patch "profile", to: "users#update"
 
   resources :posts, only: %i[index show new create]
-
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  resources :likes, only: %i[create destroy]
+  resources :comments, only: %i[create]
 end
