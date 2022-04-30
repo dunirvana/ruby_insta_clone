@@ -25,6 +25,20 @@
   resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-7.0.2.tgz#69a6d999f4087e0537dd38fe0963db1f4305d650"
   integrity sha512-G26maXW1Kx0LxQdmNNuNjQlRO/QlXNr3QfuwKiOKb5FZQGYe2OwtHTGXBAjSoiu4dW36XYMT/+L1Wo1Yov4ZXA==
 
+"@rails/actiontext@^7.0.2-4":
+  version "7.0.2-4"
+  resolved "https://registry.yarnpkg.com/@rails/actiontext/-/actiontext-7.0.2-4.tgz#973d1410730813af9c299bb496691c2d89102df5"
+  integrity sha512-nLPhWwYuM/w+8+RhFNW/QF0rnHr5lEXKetkIY0bBJfh+XoiUgHPiLKD0pnQvTOtuY5zc+CpDpApXNRqdwp3O7g==
+  dependencies:
+    "@rails/activestorage" ">= 7.0.0-alpha1"
+
+"@rails/activestorage@>= 7.0.0-alpha1":
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/@rails/activestorage/-/activestorage-7.0.2.tgz#81986034e1a38d931c40213073973b5a4c5b86e0"
+  integrity sha512-E/W80bMnlhmLz63GvY4fn82s9nDk8ZnzWBO++G3uQhwKAT/xdHgdL8VNfTOK14VKCQwHxJuBCXYnFXY68FOfFw==
+  dependencies:
+    spark-md5 "^3.0.1"
+
 esbuild-android-64@0.14.36:
   version "0.14.36"
   resolved "https://registry.yarnpkg.com/esbuild-android-64/-/esbuild-android-64-0.14.36.tgz#fc5f95ce78c8c3d790fa16bc71bd904f2bb42aa1"
@@ -151,6 +165,11 @@ esbuild@^0.14.36:
     esbuild-windows-64 "0.14.36"
     esbuild-windows-arm64 "0.14.36"
 
+spark-md5@^3.0.1:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/spark-md5/-/spark-md5-3.0.2.tgz#7952c4a30784347abcee73268e473b9c0167e3fc"
+  integrity sha512-wcFzz9cDfbuqe0FZzfi2or1sgyIrsDwmPwfZC4hiNidPdPINjeUwNfv5kldczoEAcjl9Y1L3SM7Uz2PUEQzxQw==
+
 tingle.js@^0.16.0:
   version "0.16.0"
   resolved "https://registry.yarnpkg.com/tingle.js/-/tingle.js-0.16.0.tgz#1ac35f91315271c47cb6bb7299d0b327ac7539ea"
@@ -160,3 +179,8 @@ toastify-js@^1.11.2:
   version "1.11.2"
   resolved "https://registry.yarnpkg.com/toastify-js/-/toastify-js-1.11.2.tgz#5c66cb05cee30b09e5bd8961ab809e41a3ce716c"
   integrity sha512-bMBNKhZLPX/sDhpwM7KHIRUTtqCylQeoZDiEWy5zE7iDUJ92XmP8AKgDAp9rXx6pR5GXGFtQHHoH62toahbHgQ==
+
+trix@^2.0.0-beta.0:
+  version "2.0.0-beta.0"
+  resolved "https://registry.yarnpkg.com/trix/-/trix-2.0.0-beta.0.tgz#e7034867182356c023abdef90c7bdc341bb3e105"
+  integrity sha512-D1c7FxP1hGXM/MnTd/+fGUbSDLkfxsqjA0NxOTzByQywVJVNHDOkn8xAScCKVOiAN6hXlqUR2qX4CPJHTGj+cQ==
