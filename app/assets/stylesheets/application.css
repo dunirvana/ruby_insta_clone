@@ -161,11 +161,11 @@ aside, footer {
       'posts sidebar'
       'posts footer'
       'posts .';
-    margin-top: 60px;
+    margin-top: 40px;
   }
 
   .post:not(:first-of-type) {
-    margin-top: 60px;
+    margin-top: 40px;
   }
 
   aside {
